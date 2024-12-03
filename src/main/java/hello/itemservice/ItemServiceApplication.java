@@ -10,4 +10,15 @@ public class ItemServiceApplication {
 		SpringApplication.run(ItemServiceApplication.class, args);
 	}
 
+	/* Spring 이 직접 해준다.
+	 * @Bean
+	 * public MessageSource messageSource() {
+	 *  ResourceBundleMessageSource messageSource = new
+	 * ResourceBundleMessageSource();
+	 *  messageSource.setBasenames("messages", "errors");
+	 *  messageSource.setDefaultEncoding("utf-8");
+	 *  return messageSource;
+	 * }
+	 */
+
 }
